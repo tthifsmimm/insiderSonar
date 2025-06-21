@@ -47,4 +47,4 @@ Contributions are welcome! If you have any suggestions or find a bug, please ope
 
 ---
 
-Made with ❤️ for Akindo Wave Hacks.
+Made with ❤️ for Nodit MCP Hackathon.
