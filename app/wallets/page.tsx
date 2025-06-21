@@ -68,7 +68,7 @@ const allWallets = [
 ];
 
 export default function WalletsPage() {
-  const handleSearch = (query: string, filters: any) => {
+  const handleSearch = (query: string, filters: Record<string, unknown>) => {
     console.log("AI Search on Wallets:", query, filters);
     // TODO: Implement wallet-specific search logic
   };

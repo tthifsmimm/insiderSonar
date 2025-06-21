@@ -8,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Search, Sparkles, Filter, X, ArrowRight } from "lucide-react";
 
 interface AISearchProps {
-  onSearch: (query: string, filters: any) => void;
+  onSearch: (query: string, filters: Record<string, unknown>) => void;
   onFollowUp: (query: string) => void;
 }
 
@@ -84,7 +84,7 @@ export function AISearch({ onSearch, onFollowUp }: AISearchProps) {
           <div className="relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-slate-500" />
             <Input
-              placeholder="Ask anything... e.g. 'Show me whales who bought ETH in the last 24 hours' or 'Find wallets with returns over 1000%'"
+              placeholder="Ask anything... e.g. &lsquo;Show me whales who bought ETH in the last 24 hours&rsquo; or &lsquo;Find wallets with returns over 1000%&rsquo;"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="pl-10 pr-4 py-3 text-base border-2 border-blue-200 focus:border-purple-400 bg-white"
@@ -199,7 +199,7 @@ export function AISearch({ onSearch, onFollowUp }: AISearchProps) {
             <div className="flex items-center space-x-2">
               <Sparkles className="h-4 w-4 text-blue-600" />
               <span className="text-sm font-medium text-blue-900">
-                AI is analyzing: "{query}"
+                AI is analyzing: &ldquo;{query}&rdquo;
               </span>
             </div>
             <p className="text-xs text-blue-700 mt-1">

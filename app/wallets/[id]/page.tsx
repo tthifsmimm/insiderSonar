@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -130,8 +129,8 @@ const transactions = [
   }
 ];
 
-export default function WalletDetailPage({ params }: { params: { id: string } }) {
-  const handleSearch = (query: string, filters: any) => {
+export default function WalletDetailPage() {
+  const handleSearch = (query: string, filters: Record<string, unknown>) => {
     console.log("AI Search on Wallet Detail:", query, filters);
     // TODO: Implement wallet detail-specific search logic
   };

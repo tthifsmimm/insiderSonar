@@ -103,7 +103,7 @@ const leaks = [
 ];
 
 export default function LeaksPage() {
-  const handleSearch = (query: string, filters: any) => {
+  const handleSearch = (query: string, filters: Record<string, unknown>) => {
     console.log("AI Search on Leaks:", query, filters);
     // TODO: Implement leak-specific search logic
   };
@@ -179,7 +179,7 @@ export default function LeaksPage() {
         
         <div className="bg-gradient-to-br from-red-50 to-pink-100 border border-red-200 rounded-xl p-6">
           <div className="flex items-center justify-between mb-2">
-            <h3 className="text-sm font-medium text-red-900">Today's Leaks</h3>
+            <h3 className="text-sm font-medium text-red-900">Today&apos;s Leaks</h3>
             <AlertTriangle className="h-5 w-5 text-red-600" />
           </div>
           <div className="text-3xl font-bold text-red-900">23</div>

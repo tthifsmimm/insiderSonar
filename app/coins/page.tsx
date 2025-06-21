@@ -1,7 +1,6 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -137,7 +136,7 @@ const topReturns = [
 ];
 
 export default function CoinsPage() {
-  const handleSearch = (query: string, filters: any) => {
+  const handleSearch = (query: string, filters: Record<string, unknown>) => {
     console.log("AI Search on Coins:", query, filters);
     // TODO: Implement coin-specific search logic
   };

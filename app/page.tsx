@@ -32,7 +32,7 @@ const recentLeaks = [
 ];
 
 export default function Dashboard() {
-  const handleSearch = (query: string, filters: any) => {
+  const handleSearch = (query: string, filters: Record<string, unknown>) => {
     console.log("AI Search:", query, filters);
     // TODO: Implement actual search/filter logic
     // This would typically call an API endpoint that processes the natural language query
