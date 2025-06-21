@@ -2,7 +2,7 @@
 
 ## 🚀 Welcome to InsiderSonar!
 
-This project was built for the [Akindo Wave Hacks](https://app.akindo.io/wave-hacks/JB29Nk61kfQpLPKr) hackathon.
+This project was built for the [Nodit MCP Hackathon](https://app.akindo.io/wave-hacks/JB29Nk61kfQpLPKr) hackathon.
 
 ### About InsiderSonar
 
