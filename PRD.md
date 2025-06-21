@@ -1,6 +1,6 @@
-## Product Requirements Document (PRD) - NodIt Insider Tracker
+## Product Requirements Document (PRD) - InsiderSonar Crypto Intelligence
 
-**Project Name:** NodIt Insider Tracker (working title)
+**Project Name:** InsiderSonar Crypto Intelligence (working title)
 **Date:** July 20, 2024
 **Version:** 1.0 (MVP)
 

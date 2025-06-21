@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NodIt Insider Tracker",
+  title: "InsiderSonar | Crypto Insider Intelligence",
   description: "Track cryptocurrency insider trades and whale activities",
 };
 

@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# InsiderSonar
 
-## Getting Started
+## 🚀 Welcome to InsiderSonar!
 
-First, run the development server:
+This project was built for the [Akindo Wave Hacks](https://app.akindo.io/wave-hacks/JB29Nk61kfQpLPKr) hackathon.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### About InsiderSonar
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+InsiderSonar is your go-to platform for tracking influential cryptocurrency whale movements and discovering profitable opportunities before they become mainstream. Our AI-powered analytics provide early alerts and deep insights into insider wallet activities, helping you stay ahead of the market.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **AI-Powered Search**: Ask natural language questions to find specific whale movements, coin trends, or leak alerts.
+- **Real-time Wallet Tracking**: Monitor high-performing insider wallets, their portfolio value, total returns, and win rates.
+- **Top Coins Analysis**: Discover which cryptocurrencies are being accumulated by insiders and which are delivering exceptional returns.
+- **Early Leak Alerts**: Get notified about unusual or significant transactions that could indicate upcoming market shifts.
+- **Detailed Analytics**: Dive into comprehensive data for wallets, coins, and leaks, including historical performance and risk assessments.
 
-## Learn More
+### 🛠️ Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js (React Framework)
+- TypeScript
+- Tailwind CSS
+- Shadcn/ui (for UI components)
+- Lucide React (for icons)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ⚙️ Installation & Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/InsiderSonar.git
+    cd InsiderSonar
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Deploy on Vercel
+### 🙏 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! If you have any suggestions or find a bug, please open an issue or submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Made with ❤️ for Akindo Wave Hacks.

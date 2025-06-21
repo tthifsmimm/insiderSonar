@@ -8,11 +8,11 @@ export function Navigation() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 shadow-lg">
-              <span className="text-base font-bold text-white">N</span>
+              <span className="text-base font-bold text-white">IS</span>
             </div>
             <div className="flex items-center space-x-2">
               <span className="font-bold text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                NodIt
+                InsiderSonar
               </span>
               <Badge variant="secondary" className="bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 border-blue-200">
                 Insider Tracker
